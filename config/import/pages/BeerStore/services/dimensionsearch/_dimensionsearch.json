@@ -1,0 +1,10 @@
+{
+    "contentType": "Page",
+    "ecr:type": "page",
+    "contentItem": {
+        "@type": "DimensionSearchService",
+        "@name": "Dimension Search Service",
+        "dimensionSearchResults": {"@type": "DimensionSearchResults"},
+        "redirectCollection": ""
+    }
+}

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE STUDIO_PROJECT SYSTEM "studio_project.dtd">
+<STUDIO_PROJECT APP_VERSION="6.1" NAME="BeerStore" VERSION="1110">
+
+  <PROJECT_MANAGER_CONFIG APPLICATION="" FORGE_OP_CONFIG="--pruneAutoGen" PORT="8006" URL="localhost"/>
+
+  <PROJECT_PIPELINE URL="pipeline.epx"/>
+
+  <PROJECT_FILE TYPE="ANALYTICS_CONFIG" URL="BeerStore.analytics_config.xml"/>
+
+  <PROJECT_FILE TYPE="DERIVED_PROPS" URL="BeerStore.derived_props.xml"/>
+
+  <PROJECT_FILE TYPE="DIMENSION_GROUPS" URL="BeerStore.dimension_groups.xml"/>
+
+  <PROJECT_FILE TYPE="DIMENSION_REFS" URL="BeerStore.dimension_refs.xml"/>
+
+  <PROJECT_FILE TYPE="DIMSEARCH_CONFIG" URL="BeerStore.dimsearch_config.xml"/>
+
+  <PROJECT_FILE TYPE="DIMSEARCH_INDEX" URL="BeerStore.dimsearch_index.xml"/>
+
+  <PROJECT_FILE TYPE="DVAL_RANKS" URL="BeerStore.dval_ranks.xml"/>
+
+  <PROJECT_FILE TYPE="DVAL_REFS" URL="BeerStore.dval_refs.xml"/>
+
+  <PROJECT_FILE HIGHEST_ID="2" TYPE="MERCH_RULES" URL="BeerStore.merch_rules.xml"/>
+
+  <PROJECT_FILE TYPE="MERCHSTYLES" URL="BeerStore.merchstyles.xml"/>
+
+  <PROJECT_FILE TYPE="MERCHZONES" URL="BeerStore.merchzones.xml"/>
+
+  <PROJECT_FILE TYPE="PRECEDENCE_RULES" URL="BeerStore.precedence_rules.xml"/>
+
+  <PROJECT_FILE TYPE="PROP_REFS" URL="BeerStore.prop_refs.xml"/>
+
+  <PROJECT_FILE TYPE="RECORD_FILTER" URL="BeerStore.record_filter.xml"/>
+
+  <PROJECT_FILE TYPE="RECORD_SORT_CONFIG" URL="BeerStore.record_sort_config.xml"/>
+
+  <PROJECT_FILE TYPE="RECORD_SPEC" URL="BeerStore.record_spec.xml"/>
+
+  <PROJECT_FILE TYPE="RECSEARCH_CONFIG" URL="BeerStore.recsearch_config.xml"/>
+
+  <PROJECT_FILE TYPE="RECSEARCH_INDEXES" URL="BeerStore.recsearch_indexes.xml"/>
+
+  <PROJECT_FILE TYPE="REFINEMENTS_CONFIG" URL="BeerStore.refinement_config.xml"/>
+
+  <PROJECT_FILE TYPE="RELRANK_STRATEGIES" URL="BeerStore.relrank_strategies.xml"/>
+
+  <PROJECT_FILE TYPE="RENDER_CONFIG" URL="BeerStore.render_config.xml"/>
+
+  <PROJECT_FILE TYPE="ROLLUPS" URL="BeerStore.rollups.xml"/>
+
+  <PROJECT_FILE TYPE="SEARCH_CHARS" URL="BeerStore.search_chars.xml"/>
+
+  <PROJECT_FILE TYPE="STOP_WORDS" URL="BeerStore.stop_words.xml"/>
+
+  <PROJECT_FILE TYPE="PHRASES" URL="BeerStore.phrases.xml"/>
+
+  <PROJECT_FILE TYPE="THESAURUS" URL="BeerStore.thesaurus.xml"/>
+
+  <PROJECT_FILE TYPE="STEMMING" URL="BeerStore.stemming.xml"/>
+
+  <PROJECT_FILE TYPE="PROFILES" URL="BeerStore.profiles.xml"/>
+
+  <PROJECT_FILE TYPE="KEY_PROPS" URL="BeerStore.key_props.xml"/>
+
+  <PROJECT_FILE TYPE="LANGUAGES" URL="BeerStore.languages.xml"/>
+
+  <PROJECT_FILE TYPE="CRAWLER_GLOBAL_CONFIG" URL="BeerStore.crawler_global_config.xml"/>
+
+  <PROJECT_FILE TYPE="CRAWLER_DEFAULTS" URL="BeerStore.crawler_defaults.properties"/>
+
+  <PROJECT_FILE TYPE="CRAWL_PROFILES" URL="BeerStore.crawl_profiles.xml"/>
+
+</STUDIO_PROJECT>

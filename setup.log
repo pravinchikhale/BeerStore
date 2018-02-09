@@ -1,0 +1,95 @@
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+E:\setup\Endeca\ToolsAndFrameworks\11.3.0\deployment_template\bin>deploy.bat
+
+ ------------------------------------------------------------------------------
+   Found a supported version of Platform Services installed in directory
+   E:\setup\Endeca\PlatformServices\11.3.0. If the location is incorrect, type
+   'Q' to quit and adjust your ENDECA_ROOT environment variable. Press enter to
+   continue with these settings.
+
+   Continue?
+
+
+ ------------------------------------------------------------------------------
+     Deployment Template installation script.
+
+     This script creates the directory structure for your
+     deployment and installs configuration files and scripts
+     into the directory structure.
+
+02/09/2018 06:32:27 [deploy.pl] INFO:  Starting deployment template
+   installation.
+02/09/2018 06:32:27 [AppDescriptorReader] INFO:  Parsing application descriptor
+   file
+   E:\setup\Endeca\ToolsAndFrameworks\11.3.0\deployment_template\app-templates\base_descriptor.xml.
+
+ ------------------------------------------------------------------------------
+   Enter a short name for your application.
+
+   Note: The name must conform to this regular expression: ^[a-zA-Z0-9]+$
+
+   Application name:
+BeerStore
+
+ ------------------------------------------------------------------------------
+   Specify the path into which the application will be deployed. The specified
+   directory must exist and cannot contain spaces.
+
+   For example, to deploy into c:\apps\BeerStore, specify the path as c:\apps.
+
+   Deployment directory:
+E:\setup\Endeca\Apps
+
+ ------------------------------------------------------------------------------
+   Specify the port on which the Endeca Application Controller is running. This
+   is configured in the server.xml file in the workspace of the Endeca software
+   install and should be the same for all applications deployed in this
+   environment. Ports must be in the range 1024-65535 [default: 8888].
+
+   EAC port:
+
+02/09/2018 06:32:57 [deploy.pl] INFO:  Deploying application into
+   E:\setup\Endeca\Apps\BeerStore
+
+ ------------------------------------------------------------------------------
+   Specify the port on which Oracle Endeca Workbench is running: [Default: 8006]
+
+
+ ------------------------------------------------------------------------------
+   Specify the port to use for the Live Dgraph: [Default: 15000]
+11000
+
+ ------------------------------------------------------------------------------
+   Specify the port to use for the Authoring Dgraph: [Default: 15002]
+11002
+
+ ------------------------------------------------------------------------------
+   Specify the port to use for the Log Server Component: [Default: 15010]
+11010
+
+ ------------------------------------------------------------------------------
+   Specify the path for the Oracle Wallet jps-config.xml file: [Default:
+   E:\setup\Endeca\ToolsAndFrameworks\11.3.0\server\workspace\credential_store\jps-config.xml]
+
+
+ ------------------------------------------------------------------------------
+   Specify the path for the application configuration archives to be exported
+   to: [Default:
+   E:\setup\Endeca\ToolsAndFrameworks\11.3.0\server\workspace\state\repository]
+
+
+ ------------------------------------------------------------------------------
+   Specify the path for the authoring application configuration to be exported
+   to during deployment (use only / for path separator): [Default:
+   E:/setup/Endeca/ToolsAndFrameworks/11.3.0/server/workspace/state/generation_data]
+
+02/09/2018 06:33:15 [AppDescriptorReader] INFO:  Parsing application descriptor
+   file
+   E:\setup\Endeca\ToolsAndFrameworks\11.3.0\deployment_template\app-templates\base_descriptor.xml.
+02/09/2018 06:33:15 [deploy.pl] INFO:  Processing install with id 'Dgraph'
+02/09/2018 06:33:17 [deploy.pl] INFO:  Application successfully deployed.
+
+E:\setup\Endeca\ToolsAndFrameworks\11.3.0\deployment_template\bin>
+E:\setup\Endeca\ToolsAndFrameworks\11.3.0\deployment_template\bin>

@@ -1,0 +1,68 @@
+
+E:\setup\Endeca\ToolsAndFrameworks\11.3.0\deployment_template\bin>cd \setup\Endeca\Apps\BeerStore\control
+
+E:\setup\Endeca\Apps\BeerStore\control>initialize_services.bat
+Setting EAC provisioning and performing initial setup...
+[02.09.18 07:00:13] INFO: Checking definition from AppConfig.xml against existing EAC provisioning.
+[02.09.18 07:00:14] INFO: Setting definition for application 'BeerStore'.
+[02.09.18 07:00:14] INFO: Setting definition for host 'AuthoringMDEXHost'.
+[02.09.18 07:00:15] INFO: Setting definition for host 'LiveMDEXHostA'.
+[02.09.18 07:00:15] INFO: Setting definition for host 'ReportGenerationHost'.
+[02.09.18 07:00:15] INFO: Setting definition for host 'WorkbenchHost'.
+[02.09.18 07:00:15] INFO: Setting definition for host 'ITLHost'.
+[02.09.18 07:00:15] INFO: Setting definition for component 'AuthoringDgraph'.
+[02.09.18 07:00:16] INFO: [AuthoringMDEXHost] Starting shell utility 'mkpath_-data-dgidx-output'.
+[02.09.18 07:00:17] INFO: [AuthoringMDEXHost] Starting shell utility 'mkpath_-data-partials-forge-output'.
+[02.09.18 07:00:18] INFO: [AuthoringMDEXHost] Starting shell utility 'mkpath_-data-partials-cumulative-partials'.
+[02.09.18 07:00:20] INFO: [AuthoringMDEXHost] Starting shell utility 'mkpath_-data-workbench-dgraph-config'.
+[02.09.18 07:00:21] INFO: [AuthoringMDEXHost] Starting shell utility 'mkpath_-data-dgraphs-local-dgraph-input'.
+[02.09.18 07:00:22] INFO: [AuthoringMDEXHost] Starting shell utility 'mkpath_-data-dgraphs-local-cumulative-partials'.
+[02.09.18 07:00:23] INFO: [AuthoringMDEXHost] Starting shell utility 'mkpath_-data-dgraphs-local-dgraph-config'.
+[02.09.18 07:00:25] INFO: Setting definition for component 'DgraphA1'.
+[02.09.18 07:00:25] INFO: Setting definition for script 'PromoteAuthoringToLive'.
+[02.09.18 07:00:25] INFO: Setting definition for custom component 'IFCR'.
+[02.09.18 07:00:25] INFO: Updating provisioning for host 'ITLHost'.
+[02.09.18 07:00:25] INFO: Updating definition for host 'ITLHost'.
+[02.09.18 07:00:26] INFO: [ITLHost] Starting shell utility 'mkpath_-'.
+[02.09.18 07:00:27] INFO: Setting definition for component 'LogServer'.
+[02.09.18 07:00:27] INFO: [ReportGenerationHost] Starting shell utility 'mkpath_-reports-input'.
+[02.09.18 07:00:28] INFO: Setting definition for script 'DaySoFarReports'.
+[02.09.18 07:00:28] INFO: Setting definition for script 'DailyReports'.
+[02.09.18 07:00:29] INFO: Setting definition for script 'WeeklyReports'.
+[02.09.18 07:00:29] INFO: Setting definition for script 'DaySoFarHtmlReports'.
+[02.09.18 07:00:29] INFO: Setting definition for script 'DailyHtmlReports'.
+[02.09.18 07:00:29] INFO: Setting definition for script 'WeeklyHtmlReports'.
+[02.09.18 07:00:29] INFO: Setting definition for component 'WeeklyReportGenerator'.
+[02.09.18 07:00:29] INFO: Setting definition for component 'DailyReportGenerator'.
+[02.09.18 07:00:30] INFO: Setting definition for component 'DaySoFarReportGenerator'.
+[02.09.18 07:00:30] INFO: Setting definition for component 'WeeklyHtmlReportGenerator'.
+[02.09.18 07:00:30] INFO: Setting definition for component 'DailyHtmlReportGenerator'.
+[02.09.18 07:00:30] INFO: Setting definition for component 'DaySoFarHtmlReportGenerator'.
+[02.09.18 07:00:31] INFO: Setting definition for script 'BaselineUpdate'.
+[02.09.18 07:00:31] INFO: Setting definition for script 'PartialUpdate'.
+[02.09.18 07:00:31] INFO: Setting definition for component 'Forge'.
+[02.09.18 07:00:31] INFO: [ITLHost] Starting shell utility 'mkpath_-data-incoming'.
+[02.09.18 07:00:33] INFO: [ITLHost] Starting shell utility 'mkpath_-data-workbench-temp'.
+[02.09.18 07:00:34] INFO: Setting definition for component 'PartialForge'.
+[02.09.18 07:00:34] INFO: [ITLHost] Starting shell utility 'mkpath_-data-partials-incoming'.
+[02.09.18 07:00:35] INFO: Setting definition for component 'Dgidx'.
+[02.09.18 07:00:36] INFO: Definition updated.
+[02.09.18 07:00:36] INFO: Provisioning site from prototype...
+[02.09.18 07:00:38] INFO: Finished provisioning site from prototype.
+Finished updating EAC.
+Importing content using public format...
+[02.09.18 07:00:41] INFO: Checking definition from AppConfig.xml against existing EAC provisioning.
+[02.09.18 07:00:42] INFO: Definition has not changed.
+[02.09.18 07:00:42] INFO: Packaging contents for upload...
+[02.09.18 07:00:42] INFO: Finished packaging contents.
+[02.09.18 07:00:42] INFO: Uploading contents to: http://windows7-PC:8006/ifcr/gsadmin/v1/BeerStore/pages
+[02.09.18 07:00:43] INFO: Finished uploading contents.
+Importing content using legacy format...
+[02.09.18 07:00:45] INFO: Checking definition from AppConfig.xml against existing EAC provisioning.
+[02.09.18 07:00:47] INFO: Definition has not changed.
+[02.09.18 07:00:48] INFO: Packaging contents for upload...
+[02.09.18 07:00:48] INFO: Finished packaging contents.
+[02.09.18 07:00:48] INFO: Uploading contents to: http://windows7-PC:8006/ifcr/sites/BeerStore
+[02.09.18 07:00:48] INFO: Finished uploading contents.
+Finished importing content in legacy format
+E:\setup\Endeca\Apps\BeerStore\control>

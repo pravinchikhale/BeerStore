@@ -1,0 +1,11 @@
+SampleProperty1|SampleProperty2|SampleDimension1
+1|Data A|D1
+2|Data B|D1
+3|Data C|D2
+4|Data D|D2
+5|Data E|D2
+6|Data F|D2
+7|Data G|D3
+8|Data H|D3
+9|Data I|D4
+10|Data J|D5

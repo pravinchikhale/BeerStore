@@ -1,0 +1,10 @@
+{
+    "contentType": "Page",
+    "ecr:type": "page",
+    "contentItem": {
+        "@type": "RecordDetailsService",
+        "@name": "Record Details Service",
+        "recordDetails": {"@type": "ProductDetail"},
+        "redirectCollection": ""
+    }
+}

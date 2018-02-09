@@ -1,0 +1,33 @@
+{
+    "services": [
+        {
+            "name": "dataservice",
+            "host": "windows7-PC",
+            "port": "11002",
+            "recordSpecName": "common.id",
+            "aggregationKey": "product.code",
+            "recordFilter": "",
+            "wildcardSearchEnabled": false,
+            "recordNameField": "product.name",
+            "fields": {
+                "product.id": "",
+                "product.name": "plain",
+                "product.price": "currency",
+                "product.short_desc": ""
+            }
+        },
+        {
+            "name": "endecaBrowserService",
+            "recDisplayNameProp" : "product.name",
+            "recSpecProp": "common.id",
+            "recAggregationKey": "product.code",
+            "recFilter": "",
+            "recImgUrlProp" : "product.img_url_thumbnail",
+            "recDisplayProps": [ "product.name", "product.price", "product.short_desc" ],
+            "textSearchKey": "All",
+            "textSearchMatchMode" : "ALLPARTIAL"
+        }
+    ],
+    "profileGroupsConnectionUrl": "",
+    "ecr:type": "configuration-xmgr"
+}

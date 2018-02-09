@@ -1,0 +1,14 @@
+{
+    "contentType": "Page",
+    "ecr:type": "page",
+    "contentItem": {
+        "@type": "GuidedSearchService",
+        "@name": "Guided Search Service",
+        "navigation": {"@type": "NavigationContainer"},
+        "breadcrumbs": {"@type": "Breadcrumbs"},
+        "resultsList": {"@type": "ResultsList"},
+        "searchAdjustments": {"@type": "SearchAdjustments"},
+        "dimensionSearchResults": {"@type": "DimensionSearchResults"},
+        "zones": {"@type": "ContentSlotList"}
+    }
+}

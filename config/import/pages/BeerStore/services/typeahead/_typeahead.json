@@ -1,0 +1,16 @@
+{
+    "contentType": "Page",
+	"ecr:type": "page",
+    "contentItem": {
+        "@type": "TypeaheadService",
+        "@name": "Typeahead Service",
+        "@appFilterState": {
+            "@type": "FilterState",
+            "typeAhead": true
+        },
+        "resultsList": {
+            "@type": "ResultsList",
+            "recordsPerPage": "5"
+        }
+    }
+}
