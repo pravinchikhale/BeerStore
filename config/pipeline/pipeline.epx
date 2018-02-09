@@ -25,8 +25,8 @@
     <RECORD_SOURCE>LoadData</RECORD_SOURCE>
     <DIMENSION_SOURCE>DimensionServer</DIMENSION_SOURCE>
     <PROP_MAPPING_DIM MATCH_MODE="AUTO_GEN" MAX_LENGTH="0" PROP_NAME="SampleDimension1" TARGET_NAME="SampleDimension1"/>
-    <PROP_MAPPING_PROP PROP_NAME="SampleProperty1" TARGET_NAME="SampleProperty1"/>
-    <PROP_MAPPING_PROP PROP_NAME="SampleProperty2" TARGET_NAME="SampleProperty2"/>
+    <PROP_MAPPING_PROP MAX_LENGTH="0" PROP_NAME="SampleProperty1" TARGET_NAME="p_beer_id"/>
+    <PROP_MAPPING_PROP MAX_LENGTH="0" PROP_NAME="SampleProperty2" TARGET_NAME="p_beer_brewery_id"/>
   </PROP_MAPPER>
 
 </PIPELINE>

@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <!DOCTYPE STUDIO_PROJECT SYSTEM "studio_project.dtd">
-<STUDIO_PROJECT APP_VERSION="6.1" NAME="BeerStore" VERSION="1110">
-
-  <PROJECT_MANAGER_CONFIG APPLICATION="" FORGE_OP_CONFIG="--pruneAutoGen" PORT="8006" URL="localhost"/>
+<STUDIO_PROJECT APP_VERSION="11.3" NAME="BeerStore" VERSION="1110">
 
   <PROJECT_PIPELINE URL="pipeline.epx"/>
 
